@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "grassalign",
+  "version": "${version}",
+  "name": "Grassalign",
+  "description": "Aligns tall grass blocks to the same alignment as beta",
+  "authors": [
+    "Earthcomputer"
+  ],
+  "contact": {
+    "homepage": "https://earthcomputer.net/panorama",
+    "sources": "https://github.com/Earthcomputer/GrassAlign"
+  },
+  "license": "MIT",
+  "icon": "assets/grassalign/icon.png",
+  "environment": "client",
+  "mixins": [
+    "grassalign.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7+build.201",
+    "minecraft": "1.15.2"
+  }
+}
