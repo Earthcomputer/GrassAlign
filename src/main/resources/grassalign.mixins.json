@@ -3,7 +3,8 @@
   "package": "net.earthcomputer.grassalign.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "BlockMixin"
+    "BlockMixin",
+    "MixinGameRenderer"
   ],
   "client": [
   ],
